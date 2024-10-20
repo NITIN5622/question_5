@@ -9,7 +9,7 @@ app.secret_key = str(secrets.token_hex(16))  # Needed to use sessions
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="nityam123",
+    password="nitin39",
     database="iit_indore"
 )
 cursor = db.cursor()
